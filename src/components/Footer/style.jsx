@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100vw;
-    height: 50px;
+    min-height: 60px;
+    max-height: 20vh;
 
     position: fixed;
     bottom: 0;
@@ -27,6 +28,7 @@ export const Container = styled.div`
 export const Scoreboard = styled.footer`
     display: flex;
     justify-content: center;
+    margin: 15px 0;
 
     ion-icon {
         width: 14px;
