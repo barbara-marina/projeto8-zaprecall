@@ -17,12 +17,24 @@ export const Container = styled.div`
     margin: 0 11px;
     
     ion-icon {
-        width: 13px;
-        height: 15px;
-
-        cursor: pointer;
-
+        width: 17px;
+        height: 17px;
+    }
+    ion-icon[name="play-outline"] {
         color: #333333;
+        cursor: pointer;
+    }
+    ion-icon[name="close-circle"], .close-circle{
+        color: #FF3030;
+        text-decoration: line-through;
+    }
+    ion-icon[name="help-circle"], .help-circle {
+        color: #FF922E;
+        text-decoration: line-through;
+    }
+    ion-icon[name="checkmark-circle"], .checkmark-circle {
+        color: #2FBE34;
+        text-decoration: line-through;
     }
 `;
 
@@ -30,6 +42,5 @@ export const Title= styled.h2`
     font-family: 'Recursive';
     font-weight: 700;
     font-size: 12px;
-
     color: #333333;
 `;

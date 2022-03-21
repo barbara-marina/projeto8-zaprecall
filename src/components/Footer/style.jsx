@@ -23,3 +23,22 @@ export const Container = styled.div`
 
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
 `;
+
+export const Scoreboard = styled.footer`
+    display: flex;
+    justify-content: center;
+
+    ion-icon {
+        width: 14px;
+        height: 14px;
+    }
+    ion-icon[name="close-circle"] {
+        color: #FF3030;
+    }
+    ion-icon[name="help-circle"] {
+        color: #FF922E;
+    }
+    ion-icon[name="checkmark-circle"] {
+        color: #2FBE34;
+    }
+`;

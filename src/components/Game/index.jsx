@@ -1,16 +1,17 @@
+import React from "react";
 import { Container } from "./style.jsx";
 import Logo from "../Logo/index.jsx";
 import Deck from "../Deck/index.jsx";
 import Footer from "../Footer/index.jsx";
 
-const scoreboard = {done: 0, total: 8};
-
 export default function Game() {
+    const scoreboard = React.useState([]);
+
     return (
         <Container>
             <Logo />
-            <Deck />
-            <Footer key="footer" {...scoreboard}/>
+            <Deck scoreboard={scoreboard}/>
+            <Footer key="footer" scoreboard={scoreboard}/>
         </Container>
     );
 }

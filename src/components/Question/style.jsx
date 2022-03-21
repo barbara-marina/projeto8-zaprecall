@@ -19,8 +19,8 @@ export const Container = styled.div`
     margin: 0 11px;
     
     ion-icon {
-        width: 13px;
-        height: 15px;
+        width: 17px;
+        height: 17px;
 
         cursor: pointer;
 

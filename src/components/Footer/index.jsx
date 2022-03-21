@@ -1,9 +1,12 @@
-import { Container } from "./style";
+import { Container, Scoreboard } from "./style";
 
-export default function Footer({done, total}) {
+export default function Footer({scoreboard: [score]}) {
     return (
         <Container>
-            {done}/{total} CONCLUÍDOS
+            {score.length}/8 CONCLUÍDOS
+            <Scoreboard>
+                {score.map((icon, index) => <ion-icon key={index} name={icon}></ion-icon>)}
+            </Scoreboard>
         </Container>        
     );
 }
