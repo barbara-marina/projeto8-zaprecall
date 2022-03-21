@@ -1,10 +1,10 @@
-import { Container, LogoImage, LogoText } from "./style";
+import { Container, Image, Text } from "./style";
 
 export default function Logo() {
     return(
         <Container>
-                <LogoImage />
-                <LogoText>ZapRecall</LogoText>
+                <Image />
+                <Text>ZapRecall</Text>
         </Container>
     );
 }

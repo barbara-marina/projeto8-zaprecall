@@ -1,11 +1,11 @@
-import { Container, StartButton, LogoImage, LogoText } from "./style";
+import { Container, Button, Image, Text } from "./style";
 
-export default function Home({state}) {
+export default function Home({startGame}) {
     return (
         <Container>
-            <LogoImage/>
-            <LogoText>ZapRecall</LogoText>
-            <StartButton onClick={state}>Iniciar Recall!</StartButton>
+            <Image/>
+            <Text>ZapRecall</Text>
+            <Button onClick={startGame}>Iniciar Recall!</Button>
         </Container>
     );
 }

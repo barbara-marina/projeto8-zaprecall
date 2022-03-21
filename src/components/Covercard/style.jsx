@@ -3,22 +3,18 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 90vw;
     max-width: 340px;
-    height: 40px;
-
+    height: 65px;
     background: #FFFFFF;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 0 6px;
-    margin: 0 11px;
+    padding: 0 20px;
     
     ion-icon {
-        width: 17px;
-        height: 17px;
+        width: 23px;
+        height: 23px;
     }
     ion-icon[name="play-outline"] {
         color: #333333;
@@ -37,10 +33,9 @@ export const Container = styled.div`
         text-decoration: line-through;
     }
 `;
-
 export const Title= styled.h2`
     font-family: 'Recursive';
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
     color: #333333;
 `;

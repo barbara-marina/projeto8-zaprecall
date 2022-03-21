@@ -4,20 +4,20 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Recursive';
+    font-size: 18px;
+
 `;
 export const Title = styled.div`
-    font-family: 'Recursive';
     font-weight: 700;
-    font-size: 12px;
     color: #333333;
     text-align: center;
-    margin-top: 15px;
 `;
 export const Text = styled.h2`
-    font-family: 'Recursive';
+    width: 60vw;
     font-weight: 400;
-    font-size: 12px;
     text-align: center;
+    line-height: 22px;
     color: #333333;
-    margin-top: 15px;
+    margin: 15px 0;
 `;

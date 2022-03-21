@@ -3,12 +3,12 @@ import Home from "./components/Home/index";
 import Game from "./components/Game/index";
 
 export default function App() {
-    const [game, setGame] = useState(false);
+    const [startGame, setStartGame] = useState(false);
 
     return (
         <>
-            {!game && <Home  state={() => setGame(!game)} />}
-            {game && <Game />}
+            {!startGame && <Home  startGame={() => setStartGame(!startGame)} />}
+            {startGame && <Game startGame={() => setStartGame(!startGame)} />}
         </>
     );
 }
